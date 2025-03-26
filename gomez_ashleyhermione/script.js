@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let nameInput = document.getElementById("name");
     let commentInput = document.getElementById("comment");
     let submitButton = document.getElementById("submit_comment");
-    let commentsSection = document.getElementById("comments_section"); 
+    let commentsSection = document.getElementById("comments_section");
 
     function validateForm() {
         submitButton.disabled = !(
@@ -14,12 +14,12 @@ document.addEventListener("DOMContentLoaded", () => {
         let name = nameInput.value.trim();
         let comment = commentInput.value.trim();
 
-        if (!name || !comment) return; 
+        if (!name || !comment) return;
 
         let newComment = document.createElement("div");
         newComment.classList.add("comment-item");
 
-        newComment.textContent = `${name}: ${comment}`; 
+        newComment.textContent = `${name}: ${comment}`;
 
         commentsSection.append(newComment);
 
