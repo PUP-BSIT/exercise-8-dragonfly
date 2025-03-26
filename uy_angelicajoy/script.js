@@ -24,7 +24,9 @@ function addComment(name, comment) {
   commentWrapper.appendChild(nameElement);
   commentWrapper.appendChild(commentElement);
 
-  teamCommentSection.insertBefore(commentWrapper, teamCommentSection.querySelector("h4"));
+  teamCommentSection.insertBefore(
+    commentWrapper, teamCommentSection.querySelector("h4")
+  );
 
   nameInput.value = "";
   commentInput.value = "";
