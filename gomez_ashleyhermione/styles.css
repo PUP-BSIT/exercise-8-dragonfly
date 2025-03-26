@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background: url('img1.jpg') no-repeat center/cover fixed;
+    background: url('assets/img1.jpg') no-repeat center/cover fixed;
     color: #5a5a5a;
     text-align: center;
     margin: 0;
@@ -8,7 +8,7 @@ body {
 }
 
 .header h1 {
-    background: url('img2.jpg') no-repeat center/cover;
+    background: url('assets/img2.jpg') no-repeat center/cover;
     color: black;
     padding: 40px;
     border-radius: 20px;
