@@ -216,6 +216,9 @@ a:hover {
     nav ul li a {
         font-size: 1em;
     }
+    .form-container, .comment-container {
+        width: 85%;
+    }
 }
 
 /* Mobile M */
