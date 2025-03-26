@@ -2,8 +2,8 @@
 <html>
   <head>
     <title>Gomez, Ashley Hermione</title>
-    <link rel="stylesheet" href="styles.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
   <body>
     <div class="header">
@@ -25,71 +25,58 @@
       <div class="box">
         <h2>My Works</h2>
         <ol>
-          <li><a href="sample1.html">Sample 1</a></li>
-          <li><a href="sample2.html">Sample 2</a></li>
-          <li><a href="sample3.html">Sample 3</a></li>
-          <li><a href="sample4.html">Sample 4</a></li>
-          <li><a href="sample5.html">Sample 5</a></li>
+          <li><a href="assets/sample1.html">Sample 1</a></li>
+          <li><a href="assets/sample2.html">Sample 2</a></li>
+          <li><a href="assets/sample3.html">Sample 3</a></li>
+          <li><a href="assets/sample4.html">Sample 4</a></li>
+          <li><a href="assets/sample5.html">Sample 5</a></li>
         </ol>
       </div>
 
       <div class="box">
         <h2>Testimonials</h2>
-        <p>“Intuitive design and powerful features.” -Angelica Joy Uy</p>
-        <p>“Ashley is an amazing coder and teammate!” -Kevin Barcelos</p>
-        <p>“I appreciate the website's design. Nice one!” -Gener Andaya Jr.</p>
+        <p>“Intuitive design and powerful features.” - Angelica Joy Uy</p>
+        <p>“Ashley is an amazing coder and teammate!” - Kevin Barcelos</p>
+        <p>“I appreciate the website's design. Nice one!” - Gener Andaya Jr.</p>
       </div>
 
       <div class="box">
         <h2>Gallery</h2>
-        <img src="draw1.jpg" alt="Digital Drawing 1" />
-        <img src="draw2.jpg" alt="Digital Drawing 2" />
-        <img src="draw3.jpg" alt="Digital Drawing 3" />
-        <img src="draw4.jpg" alt="Digital Drawing 4" />
-        <img src="draw5.jpg" alt="Digital Drawing 5" />
+        <img src="assets/draw1.jpg" alt="Digital Drawing 1"/>
+        <img src="assets/draw2.jpg" alt="Digital Drawing 2"/>
+        <img src="assets/draw3.jpg" alt="Digital Drawing 3"/>
+        <img src="assets/draw4.jpg" alt="Digital Drawing 4"/>
+        <img src="assets/draw5.jpg" alt="Digital Drawing 5"/>
       </div>
 
       <div class="container">
         <h1>Contact Us!</h1>
         <form action="/submit" method="POST">
           <label for="first_name">First Name:</label>
-          <input
-            type="text"
-            id="first_name"
-            name="first_name"
-            placeholder="First Name"
-            required
-          />
+          <input type="text" 
+            id="first_name" name="first_name" 
+            placeholder="First Name" 
+            required/>
 
           <label for="last_name">Last Name:</label>
-          <input
-            type="text"
-            id="last_name"
-            name="last_name"
-            placeholder="Last Name"
-            required
-          />
+          <input type="text" 
+            id="last_name" name="last_name" 
+            placeholder="Last Name" 
+            required/>
 
           <label for="email">Email:</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="youremail@gmail.com"
-            required
-          />
+          <input type="email" 
+            id="email" 
+            name="email" 
+            placeholder="youremail@gmail.com" 
+            required/>
 
           <label for="date">Date:</label>
-          <input type="date" id="date" name="date" required />
+          <input type="date" id="date" name="date" required/>
 
           <label for="message">Message:</label>
-          <textarea
-            id="message"
-            name="message"
-            rows="4"
-            placeholder="Your questions..."
-            required
-          ></textarea>
+          <textarea id="message" name="message" rows="4" 
+            placeholder="Your questions..." required></textarea>
 
           <div class="button-group">
             <button type="submit">Submit</button>
@@ -105,22 +92,27 @@
           <li>Work on more creative projects</li>
           <li>Enhance UI/UX design skills</li>
         </ul>
+        
         <h2>Comments</h2>
-        <h3>Kevin Barcelos</h3>
-        <p>
-          Wow, very artistic goals, please teach me sometimes how to design my
-          website. I would like to learn from you.
-        </p>
-        <h3>Angelica Joy Uy</h3>
-        <p>
-          I'm excited to see your progress in coding and design. Keep it up!
-        </p>
-      </p>
-      <h3>Gener Andaya Jr.</h3>
-      <p>
-        These are great goals! Keep pushing your creativity and sharpening your 
-        skills—you're on the path to excellence!
-      </p>
+        <div id="comments_section">
+          <div class="comment">
+            <h3>Kevin Barcelos</h3>
+            <p>Wow, very artistic goals. Please teach me how to design my 
+                website. I would like to learn from you.</p>
+          </div>
+
+          <div class="comment">
+            <h3>Angelica Joy Uy</h3>
+            <p>I'm excited to see your progress in coding and design. 
+                Keep it up!</p>
+          </div>
+
+          <div class="comment">
+            <h3>Gener Andaya Jr.</h3>
+            <p>These are great goals! Keep pushing your creativity and 
+                sharpening your skills—you're on the path to excellence!</p>
+          </div>
+        </div>
 
         <h3>Leave a comment</h3>
         <form id="comment_form">
